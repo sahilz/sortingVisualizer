@@ -1,0 +1,31 @@
+.array-container {
+    position: absolute;
+    margin-top: 1em;
+    left: 100px;
+}
+
+.array-bar {
+    width: 2px;
+    background-color: turquoise;
+    display: inline-block;
+    margin: 0 1px;
+}
+
+.container-button {
+    margin-left: 2em;
+    color: #caa472  !important;
+    text-transform: uppercase;
+    background: #ffffff;
+    padding: 20px;
+    border: 4px solid #caa472  !important;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+.container-button:hover {
+    color: #494949 !important;
+    border-radius: 50px;
+    border-color: #494949 !important;
+    transition: all 0.3s ease 0s;
+}
